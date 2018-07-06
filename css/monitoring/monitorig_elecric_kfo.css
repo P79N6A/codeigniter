@@ -1,0 +1,71 @@
+table.info_date {
+    font-size: 12px;
+}
+
+th.center_text {
+    text-align: center;
+}
+
+thead>tr {
+    background: #fdae45;
+}
+
+.real_time_title {
+    background: #B1A645;
+    font-weight: bold;
+}
+
+.real_time_summ {
+    background: #ffb264 !important;
+    font-weight: bold;
+}
+
+.numb_summ {
+    text-align: right;
+}
+
+body {
+    -webkit-user-select: text !important;
+}
+
+.odd {
+    background-color: #E2E4FF !important;
+}
+
+.real_time {
+    background-color: #4ec54e !important;
+    font-size: 13px;
+}
+
+.even {
+    background-color: white !important;
+}
+
+.td_title_common {
+    background: #fffece !important;
+    font-size: 13px;
+}
+
+.grand_td_title_common {
+    background: #f5d4dd !important;
+    font-size: 13px;
+}
+
+.head {
+    background: #f1f1f1;
+}
+
+.bold {
+    font-weight: bold;
+    background: #fffece ! important;
+}
+
+.max {
+    font-weight: bold;
+    color: #000;
+    background: yellow !important;
+}
+
+.pad_left_20 {
+    padding-left: 20px;
+}

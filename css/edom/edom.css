@@ -1,0 +1,23 @@
+body {
+    /* background-image:url('../../img/edom_bck.jpg');    */
+}
+
+.splash {
+    text-align: right;
+    position: absolute;
+    margin-left: -600px;
+    margin-top: -110px;
+    width: 550px;
+    height: 110px;
+    left: 100%;
+    top: 100%;
+    font-size: 12px;
+    font-style: italic;
+    color: #a5a2a2;
+    text-shadow: 1px 3px 2px #ffffff;
+    z-index: -1;
+}
+
+.content {
+    font-size: 12px;
+}

@@ -1,0 +1,48 @@
+.customStyleGreen {
+    fill: #00f201;
+    fill-opacity: 0;
+    stroke-width: 2px;
+    stroke: #029200;
+}
+
+.customStyleYellow {
+    fill: #f2ea00;
+    fill-opacity: 0;
+    stroke-width: 2px;
+    stroke: #b3ab00;
+}
+
+.customStylePurple {
+    fill: #8c51cf;
+    fill-opacity: 0;
+    stroke-width: 2px;
+    stroke: #8c51cf;
+}
+
+.customStyleRed {
+    fill: #ff0100;
+    fill-opacity: 0;
+    stroke-width: 2px;
+    stroke: #ff0100;
+}
+
+.customStyleBlue {
+    fill: #0067d9;
+    fill-opacity: 0;
+    stroke-width: 2px;
+    stroke: #0067d9;
+}
+
+.customStyleGen {
+    fill: #EA2C8A;
+    fill-opacity: 0;
+    stroke-width: 2px;
+    stroke: #EA2C8A;
+}
+
+.customStyleConsump {
+    fill: #7AA1E7;
+    fill-opacity: 0;
+    stroke-width: 2px;
+    stroke: #7AA1E7;
+}

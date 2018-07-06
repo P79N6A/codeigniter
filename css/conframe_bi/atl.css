@@ -1,0 +1,46 @@
+
+.beeline {
+    color: #da7612;
+    background-color: transparent;
+    font-size: 14px;
+}
+
+.megafon {
+    color: #37a0a7;
+    background-color: inherit;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.active_tr {
+    /*display: -webkit-box;
+    display: -ms-flexbox;
+    /*display: flex;*/
+}
+
+.sit_cont {
+    padding: 5px;
+    overflow: auto;
+    background-color: #353a41;
+    color: inherit;
+    border: 1px solid #5284ca;
+    box-shadow: 5px 5px 6px 0 rgba(50, 53, 50, 0.44);
+}
+
+#table {
+    padding: 0 15px 15px 15px;
+}
+
+.sit_cont .table > tr.active > th {
+    background-color: #b7bacc;
+    color: #000;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.2);
+}
+
+.sit_cont .table > tbody > tr.active > td {
+    color: #ffffff;
+    background-color: #2e3338;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.21);
+}
+
+

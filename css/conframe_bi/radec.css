@@ -1,0 +1,45 @@
+body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.vis.timeline .item.c0 {
+    background: #FFCDD2;
+    border: 1px solid #B71C1C;
+}
+
+.vis.timeline .item.c1 {
+    background: #E1BEE7;
+    border: 1px solid #BA68C8;
+}
+
+.vis.timeline .item.c2 {
+    background: #DCEDC8;
+    border: 1px solid #43A047;
+}
+
+.vis.timeline .item.c3 {
+    background: #FFE0B2;
+    border: 1px solid #EF6C00;
+}
+
+.vis.timeline .item.c4 {
+    background: #BBDEFB;
+    border: 1px solid #1E88E5;
+}
+
+.vis.timeline .item.selected {
+    background: #E0E0E0;
+    border-color: #9E9E9E;
+}
+
+.vis.timeline .item.dot {
+    position: absolute;
+    padding: 0;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 4px;
+}

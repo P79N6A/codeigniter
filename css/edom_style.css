@@ -1,0 +1,4 @@
+table.dataTable tr:hover {
+	background:#ddd;
+	color:red;
+}

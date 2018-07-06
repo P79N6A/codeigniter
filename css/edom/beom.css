@@ -1,0 +1,109 @@
+body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.pop_up_window {
+    background: #FFFFFF;
+    padding: 5px;
+    z-index: 999999;
+    border: solid 2px #dddddd;
+}
+
+.pop_up_item {
+    list-style-type: none;
+    color: #000000;
+    font-size: -1;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    cursor: pointer;
+}
+
+.object:hover .subject:hover {
+    cursor: pointer;
+}
+
+.pop_up_item:hover {
+    list-style-type: none;
+    background: #375582;
+    color: #fff;
+}
+
+.mObject {
+    background-color: #0277BD;
+    color: #fff;
+}
+
+.mTime {
+    background-color: #6D4C41;
+    color: #fff;
+}
+
+.mSubject {
+    background-color: #2E7D32;
+    color: #fff;
+}
+
+.mTask {
+    background-color: #DD2C00;
+    color: #fff;
+}
+
+.mRelation {
+    background-color: #8E24AA;
+    color: #fff;
+}
+
+.mSpace {
+    background-color: #827717;
+    color: #fff;
+}
+
+.object {
+    background-color: #B3E5FC;
+    color: #000000;
+}
+
+.subject {
+    background-color: #A5D6A7;
+    color: #000000;
+}
+
+.type {
+    background-color: #ECEFF1;
+    color: #000;
+}
+
+.space {
+    background-color: #F0F4C3;
+    color: #000000;
+}
+
+.task {
+    background-color: #FFAB91;
+    color: #000;
+}
+
+.relation {
+    background-color: #D1C4E9;
+    color: #000;
+}
+
+.not_entity {
+    background-color: #000000;
+    color: #fff;
+}
+
+th {
+    background-color: #D1C4E9;
+    color: #000;
+}
+
+a:hover {
+    cursor: pointer;
+}

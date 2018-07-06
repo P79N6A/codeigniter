@@ -57,28 +57,28 @@ abstract class CI_DB_driver {
 	 *
 	 * @var	string
 	 */
-	public $dsn;
+	public $dsn = 'mysql://root:m31415926@localhost/database';
 
 	/**
 	 * Username
 	 *
 	 * @var	string
 	 */
-	public $username;
+	public $username  =  'gavroche';
 
 	/**
 	 * Password
 	 *
 	 * @var	string
 	 */
-	public $password;
+	public $password    = 'p31415926';
 
 	/**
 	 * Hostname
 	 *
 	 * @var	string
 	 */
-	public $hostname;
+	public $hostname  =  'localhost';
 
 	/**
 	 * Database name
@@ -92,7 +92,7 @@ abstract class CI_DB_driver {
 	 *
 	 * @var	string
 	 */
-	public $dbdriver		= 'mysqli';
+	public $dbdriver		= 'mysql';
 
 	/**
 	 * Sub-driver

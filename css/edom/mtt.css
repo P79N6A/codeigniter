@@ -1,0 +1,17 @@
+#name_root {
+    width: 90%;
+    text-align: center;
+    font: italic 12pt serif;
+    padding-left: 5%;
+}
+
+.panel_command {
+    padding-top: 47px;
+    position: absolute;
+    z-index: 9999;
+    background: #FFF
+}
+
+.field_description {
+    font-size: 15px;
+}

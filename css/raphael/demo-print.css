@@ -1,0 +1,18 @@
+
+#holder {
+    float: :left;
+    height: 90%;
+    z-index: -99999;
+ /*   left: 50%;*/
+    margin: 10 10 10 10;
+  /*  position: absolute;*/
+    top: 0;
+    width: 90%;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}

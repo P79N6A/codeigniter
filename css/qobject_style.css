@@ -1,0 +1,20 @@
+table.dataTable tr:hover {
+	background:#ddd;
+	color:red;
+}
+
+.equipment_hover:hover {
+	background: #DCDCDC;
+}
+
+.bay_pte_hover:hover {
+	background: #B4EEB4;
+}
+
+.vol_lev_hover:hover {
+	background: #B0E2FF;
+}
+
+.power_trans_hover:hover {
+	background: #FFEFD5;
+}

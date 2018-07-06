@@ -1,0 +1,14 @@
+#list_files
+{
+	font-size: 14px;
+}
+
+#util_window>.table td
+{
+	font-size: 12px;
+}
+
+input, select, textarea 
+{
+	color: #fff !important;
+}

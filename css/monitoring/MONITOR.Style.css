@@ -1,0 +1,239 @@
+#div_dash_board {
+    width: 100%;
+    position: relative;
+    z-index: 999;
+    height: 100%;
+    float: right;
+    background-color: #353a41;
+    /*VADIM*/
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.legendText {
+    font-size: 11px !important;
+}
+
+.cell {
+    /*background-color: rgba(86, 61, 124, 0.14902);*/
+    border-bottom-color: rgba(86, 61, 124, 0.2);
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    box-sizing: border-box;
+    color: #F4F4C9 !important;
+    display: block;
+    float: left;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    /*
+	position: relative;
+
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+*/
+    padding: 2px;
+    height: 100%;
+    /*
+	background-color: rgba(86, 61, 124, 0.14902);
+
+	border-left-color: rgba(86, 61, 124, 0.2);
+	border-right-color: rgba(86, 61, 124, 0.2);
+*/
+}
+
+.label_marker_bars {
+    color: #333 !important;
+}
+
+.div_graph, .div_detal_graph {
+    color: #000 !Important;
+}
+
+.div_graph {
+    height: 100%;
+    position: relative;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+}
+
+.panel-body {
+    padding: 0px;
+    position: relative;
+}
+
+.panel-footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.23);
+    background: #2e3338;
+}
+
+.table_statistic {
+    width: 100%;
+}
+
+.name_statistic {
+    color: #F4F4C9 !important;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.glyphicon {
+    cursor: pointer;
+}
+
+.left {
+    text-align: left;
+}
+
+.jqplot-point-label {
+    font-size: 11px;
+}
+
+.ui-widget-overlay {
+    background: #000000;
+    opacity: 0.8;
+}
+
+.jqplot-yaxis-tick {
+    margin-left: 10px !important;
+    text-align: right;
+}
+
+.jqplot-yaxis {
+    margin-left: auto !important;
+    text-align: right;
+    width: 220px !important;
+    /*padding-right: 5px;
+	margin-right: 15px;
+	margin-left: 10px;
+	width: 109px;*/
+    font-style: italic;
+}
+
+.jqplot-xaxis {
+    font-style: italic;
+}
+
+table.table .table-bordered .table-condensed {
+    width: 100%;
+    font-size: 12px !important;
+}
+
+.label_marker {
+    border: 2px;
+    background-color: #739a9a;
+}
+
+.label_marker_bars {
+    border: 1px solid #fbeed5;
+    background-color: #faf2cc;
+    color: #000;
+    padding: 10px;
+    margin: 0px;
+    font-style: italic;
+    font-size: 11px;
+}
+
+.footer_total {
+    background-color: #EEEEEE;
+    color: #000;
+    padding-right: 5px;
+    margin: 0px;
+    font-size: 11px;
+    text-align: right;
+    font-weight: bold;
+}
+
+#date_block {
+    /*color:#000;*/
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-style: italic;
+}
+
+.btn_panel {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.font_h3 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.cell_format_1 {
+    padding-right: 5px !important;
+    text-align: right !important;
+}
+
+@media print {
+    .hide_print {
+        display: none;
+    }
+}
+
+table.jqplot-table-legend {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+table.jqplot-table-legend, table.jqplot-cursor-legend {
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid #ccc;
+    position: absolute;
+    font-size: .75em;
+}
+
+td.jqplot-table-legend {
+    vertical-align: middle;
+}
+
+td.jqplot-seriesToggle:hover, td.jqplot-seriesToggle:active {
+    cursor: pointer;
+}
+
+td.jqplot-table-legend>div {
+    border: 1px solid #ccc;
+    padding: 1px;
+}
+
+div.jqplot-table-legend-swatch {
+    width: 0;
+    height: 0;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 6px;
+    border-right-width: 6px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+}
+
+canvas {
+    color: #000 !Important;
+}
+
+.div_danger_monitor {
+    width: 350px;
+    margin-left: calc((100% - 350px)/2);
+    margin-top: 25%;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.tbl_obj_dzo{
+	font-size:12px;
+}
+.tbl_obj_dzo>thead>tr>th{
+	background:#b5b9ce;
+	font-size:12px;
+}
