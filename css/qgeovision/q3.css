@@ -1,0 +1,13 @@
+#map { height: 100vh;
+    margin:0;
+    padding:0;
+}
+
+
+/* стиль маркеров для подстанций */
+.my-div-icon{
+  width: 100px;
+  height: 100px;
+  background-image: linear-gradient(to bottom,red 0,purple 100%);
+  border-radius: 50%;
+}

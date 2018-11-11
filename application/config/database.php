@@ -74,12 +74,12 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> 'pgsql:host=localhost;port=5432;dbname=public',
+	'dsn'	=> '',
 	'hostname' => 'localhost',
-	'username' => 'gavroche',
-	'password' => 'p31415926',
+	'username' => 'root',
+	'password' => 'm31415926',
 	'database' => 'public',
-	'dbdriver' => '',
+	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),

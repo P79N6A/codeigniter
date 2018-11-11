@@ -1,1 +1,114 @@
-#mapid { height: 880px; }
+#mapid { height: 100vh;
+    margin:0;
+    padding:0;
+}
+.container{
+    /*padding:0;*/
+    /*margin-left: 0px;*/
+    /*margin-right: 1000vmax;*/
+}
+.navbar{
+    position: relative;
+    margin-bottom: 0px;
+}
+/* \Стилизация Sign out*/
+.nav-link{
+    position: absolute;
+    color:black;
+    font-size: larger;
+    text-align: center;
+    right: 10px;
+    top:15px;
+}
+.navbar-brand{
+    /*color:black;*/
+}
+.col-md-2 {
+    padding-right: 0px;
+}
+/*стилизация бокового итема*/
+.field{
+    display: flex;
+    background-image: linear-gradient(to bottom,#fff 0,#E0E1E9 100%);
+    margin: 0;
+}
+/*button{*/
+    /*border: hidden;*/
+/*}*/
+.legend{
+    border:1px solid #d3d3d3;
+}
+a{
+    text-decoration:none;
+}
+.card{
+    position: relative;
+    border: 1px solid #d3d3d3;
+}
+/*Стилизация плюса открытия аккордиона*/
+.plus{
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    color: lightslategray;
+    /*font-size: 15px;*/
+    height: 10px;
+    font-weight:bold;
+}
+.push{
+    padding: 0;
+    margin-bottom: 0;
+}
+label{
+    margin-left: 15px;
+    text-align: center;
+}
+.default{
+    font-weight: bold;
+    color:#14334b;
+    font-style: italic;
+}
+.test1{
+    color: #0044cc;
+}
+.options{
+    display: block;
+    background-image: linear-gradient(to bottom,#999999 0,#999999 100%);
+    margin:0;
+    padding:0;
+}
+/*текст заголовка настройки бокового меню*/
+.options_text{
+    color:white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.key_options{
+    margin-right: 12px;
+}
+/*#####################################*/
+/*//настройка надписей на карте*/
+/* Use color, background, set margins for offset, etc */
+.text-labels{
+  margin-left: -20px;
+    color:black;
+    font-size: 1em;
+    font-weight: 700;
+    /*color:darkblue;*/
+}
+/*#########################################*/
+/*//отображение боковых элементов Card*/
+.form-check,.list-group{
+    margin-bottom: 0;
+}
+.mycluster{
+    color: #0077b3;
+}
+/* стиль маркеров для подстанций */
+.my-div-icon{
+  width: 50px;
+  height: 50px;
+  background-image: linear-gradient(to bottom,red 0,purple 100%);
+  border-radius: 50%;
+}

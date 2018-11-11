@@ -6,7 +6,7 @@
  * Time: 21:40
  */
 class Test extends CI_Controller {
-	$this->load->model('mtest'); // загрузили модель
+//	$this->load->model('mtest'); // загрузили модель
     public function index(){
         echo "Test is worked!";
     }
